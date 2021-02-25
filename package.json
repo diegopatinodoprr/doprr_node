@@ -1,0 +1,36 @@
+{
+  "name": "doprr_node",
+  "version": "0.0.1",
+  "description": "Module node de test",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js -- -R spec",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegopatinodoprr/doprr_node.git"
+  },
+  "keywords": [
+    "node_module_test"
+  ],
+  "author": "doprr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegopatinodoprr/doprr_node/issues"
+  },
+  "homepage": "https://github.com/diegopatinodoprr/doprr_node#readme",
+  "devDependencies": {
+    "@types/pluralize": "^0.0.29",
+    "chai": "^4.3.0",
+    "coveralls": "^3.1.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^8.3.0",
+    "typescript": "^4.2.2"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}
