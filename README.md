@@ -32,3 +32,11 @@ define(function(require,exports,module){
 ## Test 
 ```sh
 npm run test
+```
+## SemVer
+
+  - < Less than
+  - <= Less than or equal to
+  - \> Greater than
+  - \>= Greater than or equal to
+  - = Equal. If no operator is specified, then equality is assumed, so this operator is optional, but MAY be included.

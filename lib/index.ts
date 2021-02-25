@@ -5,5 +5,5 @@ import * as pluralize from "pluralize";
  * @Return {string}
  */
 export function getPlural(str: any): string {
-  return pluralize.plural(str);
+  return pluralize.plural(str) + " c'est un test";
 }
