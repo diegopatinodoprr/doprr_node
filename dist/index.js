@@ -8,6 +8,6 @@ var pluralize = require("pluralize");
  * @Return {string}
  */
 function getPlural(str) {
-    return pluralize.plural(str) + " c'est un test";
+    return pluralize.plural(str) + "On est Dans la Derniere Version";
 }
 exports.getPlural = getPlural;
