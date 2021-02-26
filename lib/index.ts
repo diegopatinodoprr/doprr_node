@@ -5,5 +5,5 @@ import * as pluralize from "pluralize";
  * @Return {string}
  */
 export function getPlural(str: any): string {
-  return pluralize.plural(str) + "On est Dans la Derniere Version 0.0.5";
+  return pluralize.plural(str) + "On est Dans la Derniere Version 1.0.0";
 }
