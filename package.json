@@ -1,13 +1,13 @@
 {
   "name": "doprr_node",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Module node de test",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "mocha --reporter spec",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js -- -R spec",
-    "generator":"tsc",
+    "generator": "tsc",
     "build": "tsc"
   },
   "repository": {
