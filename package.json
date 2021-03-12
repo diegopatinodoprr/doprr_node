@@ -1,5 +1,5 @@
 {
-  "name": "doprr_node",
+  "name": "@doprrdev/doprr_node",
   "version": "2.0.2",
   "description": "Module node de test",
   "main": "dist/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diegopatinodoprr/doprr_node.git"
+    "url": "git+https://github.com/doprrdev/doprr_node.git"
   },
   "keywords": [
     "node_module_test"
@@ -20,9 +20,9 @@
   "author": "doprr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/diegopatinodoprr/doprr_node/issues"
+    "url": "https://github.com/doprrdev/doprr_node/issues"
   },
-  "homepage": "https://github.com/diegopatinodoprr/doprr_node#readme",
+  "homepage": "https://github.com/doprrdev/doprr_node#readme",
   "devDependencies": {
     "@types/pluralize": "^0.0.29",
     "chai": "^4.3.0",
